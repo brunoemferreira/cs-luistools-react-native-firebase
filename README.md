@@ -24,6 +24,9 @@
   - [Firebase Cloud Functions](https://firebase.google.com/docs/functions) 
 
 
+ # Criando o Projeto utilizando o template do React Native com Typescript 
+ $ npx react-native init meuApp --template react-native-template-typescript
+
 
 ```bash
 # Verificar os devices que estão rodando
