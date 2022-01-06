@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 
-const ContentScreeen: React.FC = () => {
+const ContentScreen: React.FC = () => {
   return (
     <View style={styles.container}>
       <Text style={{ marginBottom: 15 }}>Conteúdo.</Text>
@@ -9,7 +9,7 @@ const ContentScreeen: React.FC = () => {
   )
 }
 
-export default ContentScreeen;
+export default ContentScreen;
 
 const styles = StyleSheet.create({
   container: {
