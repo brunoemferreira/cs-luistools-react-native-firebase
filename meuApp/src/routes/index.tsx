@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import RoutesPublic from './routes.public';
+import RoutesSecure from './routes.secure';
 
 const Routes: React.FC = () => {
-  return <RoutesPublic />;
+  const [signed, setSigned] = useState(true);
+
+  return signed ? <RoutesSecure /> : <RoutesPublic />;
 };
 
 export default Routes;

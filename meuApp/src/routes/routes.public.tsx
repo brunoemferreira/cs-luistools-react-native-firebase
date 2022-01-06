@@ -7,7 +7,7 @@ const RoutesPublic: React.FC = () => {
       <SafeAreaView style={styles.savTop} />
       <SafeAreaView style={styles.savBottom}>
         <View style={styles.container}>
-          <Text>Usuário autenticado !!!</Text>
+          <Text style={{ color: '#fff' }}>Usuário Não autenticado !!!</Text>
         </View>
       </SafeAreaView>
     </>
@@ -24,10 +24,10 @@ const styles = StyleSheet.create({
   },
   savBottom: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#000000',
   },
   savTop: {
     flex: 0,
-    backgroundColor: '#fff',
+    backgroundColor: '#000000',
   },
 });
